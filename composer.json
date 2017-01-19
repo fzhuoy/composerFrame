@@ -1,0 +1,25 @@
+{
+    "name": "fzhuoy/demo",
+    "description": "demo",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "fengzhuozi",
+            "email": "yunzhuo@163.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload" : {
+	"files":[
+		"core/functions.php"
+	],
+	"psr-4" : { 
+		"core\\" : "core",
+		"web\\" : "web",
+        "view\\":"view"
+	}
+    }
+}
